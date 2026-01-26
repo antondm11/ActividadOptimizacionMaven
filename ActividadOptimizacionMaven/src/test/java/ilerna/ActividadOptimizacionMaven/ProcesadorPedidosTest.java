@@ -1,38 +1,23 @@
 package ilerna.ActividadOptimizacionMaven;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-
-/**
- * Unit test for simple App.
- */
-public class ProcesadorPedidosTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public ProcesadorPedidosTest( String testName )
-    {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( ProcesadorPedidosTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+import static org.junit.Assert.*;
+import org.junit.Test;
+import java.util.ArrayList;
+import java.util.Arrays;
+ 
+ 
+public class ProcesadorPedidosTest {
+ 
+ 
+    @Test
+    public void testProcesarPedidoConDescuento() {
+        ProcesadorPedidos proc = new ProcesadorPedidos();
+        ArrayList<String> nombres = new ArrayList<>(Arrays.asList("Monitor", "Teclado"));
+        ArrayList<Double> precios = new ArrayList<>(Arrays.asList(150.0, 50.0));
+        
+        // Cálculos esperados:
+        // 200 total -> -10% desc = 180 -> +21% IVA = 217.8 -> +15.95 envío = 233.75
+        double resultado = proc.procesar(nombres, precios);
+        assertEquals(233.75, resultado, 0.01);
     }
 }
