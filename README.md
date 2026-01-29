@@ -10,7 +10,11 @@ En primer lugar, se procede con la instalación del plugin SonarQube (anteriorme
 ![Al aparecer el plugin en la siguiente captura se muestra que se ha instalado correctamente](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1SonarQube.png)
 
 Prosiguiendo, una vez instalado SonarQube, acceder a la pestaña Preferencias en Eclipse, donde al hacer clic en el desplegable de SonarQube se pinchará en la opción “Rules Configuration”. Una vez allí, al hacer clic en el desplegable de Java, aparecerán todas las reglas asociadas, revisando en este caso con la denominada “Cognitive Complexity”, que ![activada por defecto.](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1CognitiveComplexityOn.png)
-Se ![desmarca la regla](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1CognitiveComplexityOff.png)
+Se desmarca la regla como se ve en la siguiente captura:
+(https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/Captura2CognitiveComplexityOff.png)
+
+
+
 El código del proyecto se ve ![de la siguiente manera].
 
 
