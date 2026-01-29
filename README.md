@@ -15,6 +15,7 @@ El código del proyecto se ve ![de la siguiente manera].
 
 
 Además de esta regla, se revisará la denominada "Magic Numbers" ("Magic numbers should not be used" tal cual aparece), también en el desplegable de Java, que aparece desactivada por defecto. ![Se activa](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaMagicNumbersRule.png)
+
 Una vez activada se revisa el código del proyecto, ![apreciándose como los números que se pueden definir como una constante aparecerán subrayados en azul](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaMagicNumbers.png)
 
 
