@@ -20,7 +20,7 @@ Se desmarca la regla como se ve en la siguiente captura:
 
 El código del proyecto se ve así:
 
-![](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaMagicNumbersBeta.png)
+![](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaVistaCognitiveComplexity.png)
 
 Además de esta regla, se revisará la denominada "Magic Numbers" ("Magic numbers should not be used" tal cual aparece), también en el desplegable de Java, que aparece desactivada por defecto.
 
