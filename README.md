@@ -9,16 +9,20 @@ A continuación se ofrece la explicación de las capturas de pantalla así como 
 En primer lugar, se procede con la instalación del plugin SonarQube (anteriormente denominado SonarLint) a través del Marketplace de Eclipse. 
 ![Al aparecer el plugin en la siguiente captura se muestra que se ha instalado correctamente](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1SonarQube.png)
 
-Prosiguiendo, una vez instalado SonarQube, acceder a la pestaña Preferencias en Eclipse, donde al hacer clic en el desplegable de SonarQube se pinchará en la opción “Rules Configuration”. Una vez allí, al hacer clic en el desplegable de Java, aparecerán todas las reglas asociadas, revisando en este caso con la denominada “Cognitive Complexity”, que
-![activada por defecto.](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1CognitiveComplexityOn.png)
+Prosiguiendo, una vez instalado SonarQube, acceder a la pestaña Preferencias en Eclipse, donde al hacer clic en el desplegable de SonarQube se pinchará en la opción “Rules Configuration”. Una vez allí, al hacer clic en el desplegable de Java, aparecerán todas las reglas asociadas, revisando en este caso con la denominada “Cognitive Complexity”, que activada por defecto se vería así:
+
+![](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1CognitiveComplexityOn.png)
 
 Se desmarca la regla como se ve en la siguiente captura:
+
 ![](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/Captura2CognitiveComplexityOff.png)
 
-El código del proyecto se ve
-![así](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaMagicNumbersBeta.png)
+El código del proyecto se ve así:
+
+![](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaMagicNumbersBeta.png)
 
 Además de esta regla, se revisará la denominada "Magic Numbers" ("Magic numbers should not be used" tal cual aparece), también en el desplegable de Java, que aparece desactivada por defecto.
+
 ![Se activa](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaMagicNumbersRule.png)
 
 Una vez activada se revisa el código del proyecto, ![apreciándose como los números que se pueden definir como una constante aparecerán subrayados en azul](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaMagicNumbers.png). De hecho, el propio plugin SonarQube ofrece la sugerencia de cambiar dichos números por las constantes cuando se realice el proceso de refactorizar más adelante. Cabe destacar que esta vista con dichos números en azul aparece así cuando se han marcado ambas reglas, tanto "Magic Numbers" como "Cognitive Complexity".
