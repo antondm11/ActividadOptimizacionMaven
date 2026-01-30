@@ -108,7 +108,7 @@ Constante refactorizada, siendo vista aquí dentro del método para el cálculo 
 
 ![](https://github.com/antondm11/ActividadOptimizacionMaven/blob/main/Screenshots/CapturaConstanteGastos.png)
 
-Cabe apuntar finalmente que tras los cambios se ejecutaron las pruebas Junit y todo el código pasó el test, con la cobertura del 100%.
+Cabe apuntar finalmente que tras los cambios se ejecutaron las pruebas JUnit y todo el código pasó el test, con la cobertura del 100%.
 
 
 TABLA RESUMEN DE LOS PROCESOS DE REFACTORIZACIÓN APLICADOS
