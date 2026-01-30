@@ -6,8 +6,9 @@ En la carpeta Screenshots se recopilan las capturas de pantalla sobre las compro
 
 A continuación se ofrece la explicación de las capturas de pantalla así como su significado y los cambios que han ido realizándose durante el proceso del proyecto.
 
-En primer lugar, se procede con la instalación del plugin SonarQube (anteriormente denominado SonarLint) a través del Marketplace de Eclipse. 
-![Al aparecer el plugin en la siguiente captura se muestra que se ha instalado correctamente](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1SonarQube.png)
+En primer lugar, se procede con la instalación del plugin SonarQube (anteriormente denominado SonarLint) a través del Marketplace de Eclipse. Al aparecer el plugin en la siguiente captura se muestra que se ha instalado correctamente
+
+![](https://github.com/antondm11/ActividadOptimizacionMaven/tree/main/Screenshots/Captura1SonarQube.png)
 
 Prosiguiendo, una vez instalado SonarQube, acceder a la pestaña Preferencias en Eclipse, donde al hacer clic en el desplegable de SonarQube se pinchará en la opción “Rules Configuration”. Una vez allí, al hacer clic en el desplegable de Java, aparecerán todas las reglas asociadas, revisando en este caso con la denominada “Cognitive Complexity”, que activada por defecto se vería así:
 
